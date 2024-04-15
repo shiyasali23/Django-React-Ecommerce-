@@ -1,0 +1,57 @@
+.addcart-wraper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: relative;
+  bottom: 85px;
+
+}
+
+.sizes-container {
+  display: flex;
+  position: absolute;
+  bottom: 5px;
+  right: 40px;
+  transition: transform 0.3s ease;
+
+}
+
+.addcart-size-button {
+  width: 23px;
+  height: 23px;
+  padding: 0px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(204, 204, 204);
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 9px;
+  transition: transform 0.3s ease-in-out;
+  font-weight: 200;
+  border-radius: 50%;
+  background: #e0e0e0;
+}
+
+.addcart-size-button:hover {
+  transform: scale(1.1);
+}
+
+
+
+.fa-bag-shopping {
+  font-size: 20px;
+  color: #1a2310;
+  position: absolute;
+  bottom: 5px;
+  right: 15px;
+  
+}
+
+.fa-bag-shopping:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+  
+}

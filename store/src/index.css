@@ -1,0 +1,33 @@
+@import "./Css/AddCart.css";
+@import "./Css/BasketCard.css";
+@import "./Css/BlogPage.css";
+@import "./Css/CartPage.css";
+@import "./Css/CheckoutPage.css";
+@import "./Css/Footer.css";
+@import "./Css/Header.css";
+@import "./Css/LandingPage.css";
+@import "./Css/OrdersPage.css";
+@import "./Css/ProductCard.css";
+@import "./Css/ProductPage.css";
+@import "./Css/CheckoutPage.css";
+@import "./Css/StorePage.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif; 
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  button:focus{
+    outline: none;
+  }

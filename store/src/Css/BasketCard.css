@@ -1,0 +1,97 @@
+.basket-container {
+  width: 94%;
+  height: 200px;
+  margin: 10px 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 20px;
+  /* border: 1px solid black; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 3px, rgba(0, 0, 0, 0.08) 0 0 6px,
+    rgba(0, 0, 0, 0.06) 0 0 9px;
+}
+.basket-left{
+  /* border: 1px solid black; */
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+}
+.basket-right{
+  height: 20%;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+
+  /* border: 1px solid black; */
+
+}
+
+.basket-image {
+  width: 60%;
+  height: 80%;
+  /* border: 1px solid black; */
+
+}
+
+.basket-image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.basket-name {
+  display: flex;
+  width: 100%;
+  /* border: 1px solid black; */
+  color: #283618;
+  margin-top: 3px;
+}
+
+.basket-size {
+  color: #283618;
+}
+
+.basket-quantity{
+  width: 15%;
+}
+
+.basket-subtotal {
+  color: #283618;
+}
+
+.basket-delete{
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .basket-container {
+    height: 140px;
+    padding: 8px 5px;
+  }
+
+
+  .basket-image{
+    width: 80%;
+  }
+
+  .basket-name {
+    font-size: 10px;
+  }
+
+  .basket-size {
+    font-size: 10px;
+  }
+
+
+  .basket-subtotal{
+    font-size: 10px;
+  }
+
+  .basket-delete {
+    font-size: 10px;
+  }
+}

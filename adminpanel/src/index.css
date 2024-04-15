@@ -1,0 +1,17 @@
+
+@import "./CSS/Analytics.css";
+@import './CSS/LoginPage.css';
+@import './CSS/ManageOrders.css';
+@import './CSS/ManageProduct.css';
+@import './CSS/Navbar.css';
+@import './CSS/Notification.css';
+@import './CSS/TableList.css';
+
+*,input,label,div,h1,h2,h3,h4,h5,img,p,td,tr,table,label,textarea,select {
+  margin: 0;
+  padding: 0;
+}
+
+.error-message{
+  margin: 20% 25%;
+}
